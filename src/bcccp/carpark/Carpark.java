@@ -22,6 +22,10 @@ public class Carpark implements ICarpark {
 			IAdhocTicketDAO adhocTicketDAO, 
 			ISeasonTicketDAO seasonTicketDAO) {
 		//TODO Implement constructor
+        this.name = name;
+        this.capacity = capacity;
+        this.adhocTicketDAO = adhocTicketDAO;
+        this.seasonTicketDAO = seasonTicketDAO
 	}
 
 
@@ -45,7 +49,7 @@ public class Carpark implements ICarpark {
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return null;
+		return name;
 	}
 
 
