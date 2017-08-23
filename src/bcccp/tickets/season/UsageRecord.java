@@ -8,10 +8,10 @@ public class UsageRecord implements IUsageRecord {
 	
 	
 	
-	public UsageRecord(String ticketId, long startDateTime) {
+	public UsageRecord(String ticketId, long startDateTime, long endDateTime) {
 		//TODO Implement constructor
 		this.ticketId = ticketId;
-		this.startDateTime;
+		this.startDateTime = startDateTime;
 	}
 
 
@@ -27,7 +27,7 @@ public class UsageRecord implements IUsageRecord {
 	@Override
 	public long getStartTime() {
 		// TODO Auto-generated method stub
-		return 0;
+		return startDateTime;
 	}
 
 
@@ -35,7 +35,7 @@ public class UsageRecord implements IUsageRecord {
 	@Override
 	public long getEndTime() {
 		// TODO Auto-generated method stub
-		return 0;
+		return endDateTime;
 	}
 
 
@@ -43,7 +43,7 @@ public class UsageRecord implements IUsageRecord {
 	@Override
 	public String getSeasonTicketId() {
 		// TODO Auto-generated method stub
-		return null;
+		return ticketID;
 	}
 	
 	
