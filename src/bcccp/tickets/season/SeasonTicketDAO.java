@@ -35,7 +35,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	@Override
 	public int getNumberOfTickets() {
 		// TODO Auto-generated method stub
-		return 0;
+		return numberOfTickets;
 	}
 
 
