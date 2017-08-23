@@ -28,7 +28,7 @@ public class SeasonTicket implements ISeasonTicket {
 	@Override
 	public String getId() {
 		// TODO Auto-generated method stub
-		return null;
+		return ticketId;
 	}
 
 	@Override
@@ -64,7 +64,7 @@ public class SeasonTicket implements ISeasonTicket {
 	@Override
 	public IUsageRecord getCurrentUsageRecord() {
 		// TODO Auto-generated method stub
-		return null;
+		return currentUsage;
 	}
 
 	@Override
@@ -76,7 +76,7 @@ public class SeasonTicket implements ISeasonTicket {
 	@Override
 	public List<IUsageRecord> getUsageRecords() {
 		// TODO Auto-generated method stub
-		return null;
+		return usageRecord;
 	}
 
 
