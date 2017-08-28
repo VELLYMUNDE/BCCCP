@@ -65,8 +65,7 @@ public class AdhocTicket implements IAdhocTicket {
 
 	@Override
 	public long getPaidDateTime() {
-		// TODO Auto-generated method stub
-		return 0;
+		System.out.println("date and time of entry")	return 0;
 	}
 
 
