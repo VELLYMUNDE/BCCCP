@@ -10,14 +10,14 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 	
 	
 	public AdhocTicketDAO(IAdhocTicketFactory factory) {
-		//TODO Implement constructor
+		get.adhocticketDAO 1;
 	}
 
 
 
 	@Override
 	public IAdhocTicket createTicket(String carparkId) {
-		// TODO Auto-generated method stub
+		System.out.println("Generated")
 		return null;
 	}
 
@@ -25,7 +25,7 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 	@Override
 	public IAdhocTicket findTicketByBarcode(String barcode) {
-		// TODO Auto-generated method stub
+		system.out.println("Enter barcode");
 		return null;
 	}
 
