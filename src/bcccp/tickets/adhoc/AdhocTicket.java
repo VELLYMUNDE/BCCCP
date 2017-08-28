@@ -78,14 +78,14 @@ public class AdhocTicket implements IAdhocTicket {
 
 	@Override
 	public float getCharge() {
-		// TODO Auto-generated method stub
+		System.out.println("float type")
 		return 0;
 	}
 
 
 	@Override
 	public void exit(long dateTime) {
-		// TODO Auto-generated method stub
+		System.out.println("exit");
 		
 	}
 
