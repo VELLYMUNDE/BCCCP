@@ -51,8 +51,8 @@ public class AdhocTicket implements IAdhocTicket {
 
 	@Override
 	public boolean isCurrent() {
-		// TODO Auto-generated method stub
-		return false;
+		System.out.println("boolean type")
+                  return false;
 	}
 
 
