@@ -45,8 +45,7 @@ public class AdhocTicket implements IAdhocTicket {
 
 	@Override
 	public long getEntryDateTime() {
-		// TODO Auto-generated method stub
-		return 0;
+                  System.out.println("enter ticket date and time");
 	}
 
 
