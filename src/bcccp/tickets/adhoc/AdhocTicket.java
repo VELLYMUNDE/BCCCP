@@ -42,7 +42,7 @@ public class AdhocTicket implements IAdhocTicket {
 
 	@Override
 	public void enter(long dateTime) {
-		// TODO Auto-generated method stub
+		system.out.println("enter date");
 		
 	}
 
