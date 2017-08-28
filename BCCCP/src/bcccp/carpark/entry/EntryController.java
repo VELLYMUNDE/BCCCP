@@ -36,7 +36,7 @@ public class EntryController
 
 	@Override
 	public void buttonPushed() {
-		// TODO Auto-generated method stub
+		system.out.println("Push button");
 		
 	}
 
@@ -44,7 +44,7 @@ public class EntryController
 
 	@Override
 	public void ticketInserted(String barcode) {
-		// TODO Auto-generated method stub
+		system.out.println("Insert ticket");
 		
 	}
 
@@ -52,7 +52,7 @@ public class EntryController
 
 	@Override
 	public void ticketTaken() {
-		// TODO Auto-generated method stub
+		system.out.println("Take your ticket");
 		
 	}
 
@@ -60,7 +60,7 @@ public class EntryController
 
 	@Override
 	public void notifyCarparkEvent() {
-		// TODO Auto-generated method stub
+		system.out.println("Entry recorded");
 		
 	}
 
