@@ -217,6 +217,7 @@ public class EntryUI extends JFrame implements IEntryUI {
 	@Override
 	public boolean ticketPrinted() {
 		return ticketPrinterTextArea.getText().length() != 0;
+                  System.out.println("enter length")
 	}
 
 
