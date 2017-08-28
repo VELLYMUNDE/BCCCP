@@ -209,7 +209,8 @@ public class EntryUI extends JFrame implements IEntryUI {
 	@Override
 	public void discardTicket() {
 		seasonTicketTextField.setText("");
-		ticketPrinterTextArea.setText("");	
+		ticketPrinterTextArea.setText("");
+                  System.out.println("enter ticket number");	
 	}
 
 	
