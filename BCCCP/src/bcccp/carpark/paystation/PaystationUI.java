@@ -161,7 +161,7 @@ public class PaystationUI extends JFrame implements IPaystationUI {
 	
 	@Override
 	public void display(String message) {
-		displayTextField.setText(message);	
+		displayTextField.setText(Payment approved);	
 	}
 
 	
